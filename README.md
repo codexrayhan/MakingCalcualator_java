@@ -1,2 +1,2 @@
 # MakingCalcualator_java
-I made a digital calcualator with the using of java for my OOP_lab course class assignment.
+A simple and user-friendly calculator application built to perform basic arithmetic operations like addition, subtraction, multiplication,division etc.
