@@ -3,7 +3,7 @@ import javax.swing.border.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.geom.*;
-import java.awt.font.*;
+//import java.awt.font.*;
 
 /**
  * Calculator.java
@@ -24,7 +24,7 @@ public class Calculator extends JFrame {
     private static final Color BTN_SPECIAL    = new Color(50, 55, 80);       // #323750
     private static final Color BTN_EQUALS     = new Color(0, 210, 180);      // #00D2B4 bright teal
     private static final Color BTN_CLEAR      = new Color(220, 70, 90);      // #DC465A red
-    private static final Color BTN_HOVER_NUM  = new Color(55, 62, 90);       // lighter on hover
+   // private static final Color BTN_HOVER_NUM  = new Color(55, 62, 90);       // lighter on hover
     private static final Color TEXT_PRIMARY   = new Color(230, 235, 255);    // #E6EBFF
     private static final Color TEXT_SECONDARY = new Color(130, 145, 185);    // #8291B9
     private static final Color TEXT_OPERATOR  = new Color(255, 255, 255);    // white on teal
