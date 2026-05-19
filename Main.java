@@ -1,5 +1,15 @@
 import javax.swing.*;
 
+/**
+ * Main.java
+ * Entry point for the Modern Calculator Application.
+ *
+ * How to compile and run:
+ *   javac Main.java Calculator.java
+ *   java Main
+ *
+ * Requirements: Java 8 or higher (no external libraries needed).
+ */
 public class Main {
 
     public static void main(String[] args) {
@@ -9,7 +19,7 @@ public class Main {
             try {
                 UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
             } catch (Exception e) {
-               
+                // Fallback silently — custom painting handles all visuals anyway
             }
 
             // Anti-aliased text system-wide
